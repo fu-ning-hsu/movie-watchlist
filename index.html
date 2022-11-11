@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+        <!-- font awesom -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- css -->
+        <link rel="stylesheet" href="index.css">
+        <meta charset = "UTF-8" />
+    </head>
+    <body>
+        <section class="header">
+            <div class="container">
+                <h1 class="header-title">Find your film</h1>
+                <a id="my-watchlist-btn" class="header-link" href="./watchlist.html">My watchlist</a>
+            </div>
+        </section>
+        <form id="search-form" action="" method="" class="container search">
+            <i class="fa-solid fa-magnifying-glass icon-search"></i>
+            <input id="search-input" type="text" placeholder="Search for a movie" required/>
+            <button type="submit" id="search-btn" class="search-btn" >Search</button>
+        </form>
+        <main id="movies" class="movies container">
+            <div class="movie-icon">
+                <i class="fa-solid fa-film"></i>
+                <h3>Start exploring</h3>
+            </div> 
+        </main>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
