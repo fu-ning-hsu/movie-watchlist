@@ -9,7 +9,7 @@ document.addEventListener("click", function(e) {
             let searchInputValue = searchInput.value
             let title = searchInputValue.toLowerCase().replace(/ /g, "+")
     
-            fetch(`http://www.omdbapi.com/?apikey=aa87202c&t=${title}&plot=short`)
+            fetch(`https://www.omdbapi.com/?apikey=aa87202c&t=${title}&plot=short`)
                 .then(res => res.json())
                 .then(data => {
                     if (data.Error) {
